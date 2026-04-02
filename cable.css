@@ -1,0 +1,214 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Times New Roman", serif;
+}
+
+header{
+background:hsl(0, 0%, 100%);
+border-bottom:3px solid rgb(255, 253, 255);
+}
+
+.navbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:10px 40px;
+}
+
+.logo img{
+height:40px;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:35px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:black;
+font-size:14px;
+font-weight:500;
+letter-spacing:1px;
+}
+
+.nav-links a:hover{
+color:purple;
+}.cables-section{
+padding:40px;
+}
+
+.cable-products{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+padding:40px;
+}
+
+
+.product-card{
+padding:15px;
+border:1px solid #ddd;
+border-radius:10px;
+transition:0.3s;
+background:white;
+}
+
+.product-card:hover{
+transform:translateY(-5px);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-card img{
+width:100%;
+}
+
+.product-info{
+text-align:left;
+}
+
+.product-info h3{
+margin-top:10px;
+}
+
+.product-info h4{
+margin-top:5px;
+font-weight:normal;
+}
+
+.product-card button{
+margin-top:10px;
+padding:6px 10px;
+}
+
+.product-btn{
+display:block;
+background:#e60000;
+color:white;
+text-align:center;
+padding:10px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+margin-bottom:10px;
+transition:0.3s;
+}
+
+.product-btn:hover{
+background:#cc0000;
+}
+
+.footer{
+background:#f2f2f2;
+padding:50px 40px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+}
+
+.footer-logo img{
+height:50px;
+margin-bottom:15px;
+}
+
+.social-icons a{
+margin-right:15px;
+color:#777;
+font-size:18px;
+text-decoration:none;
+}
+
+.footer-links h3,
+.footer-contact h3{
+font-size:18px;
+margin-bottom:15px;
+}
+.footer-links ul{
+list-style:none;
+}
+
+.footer-links ul li{
+margin-bottom:8px;
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Times New Roman", serif;
+}
+
+.social-icons a{
+margin-right:15px;
+color:#777;
+font-size:18px;
+text-decoration:none;
+}
+
+.footer-links h3,
+.footer-contact h3{
+font-size:18px;
+margin-bottom:15px;
+}
+
+.footer-links ul{
+list-style:none;
+}
+
+.footer-links ul li{
+margin-bottom:8px;
+}
+
+.footer-links ul li a{
+text-decoration:none;
+color:#444;
+}
+
+.footer-contact{
+max-width:400px;
+}
+
+.footer-contact p{
+font-size:14px;
+line-height:1.6;
+}
+
+/* TABLET */
+
+@media (max-width:1024px){
+
+.cable-products{
+grid-template-columns:repeat(3,1fr);
+padding:0 20px;
+}
+
+.nav-links{
+gap:20px;
+}
+
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+.navbar{
+flex-direction:column;
+gap:10px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.cable-products{
+grid-template-columns:repeat(2,1fr);
+}
+}
