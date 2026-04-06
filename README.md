@@ -1,4 +1,4 @@
-# 🐐 Goat Digital Website  
+#  Goat Digital Website  
 
 ## 📌 **Overview**  
 A dynamic **full-stack web application** built using **PHP and MySQL**, designed to handle user data, process forms, and display dynamic content efficiently.  
