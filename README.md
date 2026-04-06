@@ -1,22 +1,19 @@
-Goat Digital Website
+# 🐐 Goat Digital Website  
 
-📌 Overview
+## 📌 **Overview**  
+A dynamic **full-stack web application** built using **PHP and MySQL**, designed to handle user data, process forms, and display dynamic content efficiently.  
 
-A dynamic full-stack web application built using PHP and MySQL, designed to handle user data, process forms, and display dynamic content efficiently.
+## 🚀 **Features**  
+- **Dynamic UI** with PHP integration  
+- **Form handling** (GET/POST)  
+- **CRUD operations** with MySQL  
+- **Session & cookie management**  
 
-🚀 Features
-Dynamic UI with PHP integration
-Form handling (GET/POST)
-CRUD operations with MySQL
-Session & cookie management
-🛠️ Tech Stack
+## 🛠️ **Tech Stack**  
+**HTML | CSS | JavaScript | PHP | MySQL**  
 
-HTML | CSS | JavaScript | PHP | MySQL
+## ⚙️ **Setup**  
+**Clone → Move to `htdocs` → Start XAMPP → Import Database → Run on `localhost`**  
 
-⚙️ Setup
-
-Clone → Move to htdocs → Start XAMPP → Import DB → Run on localhost
-
-👩‍💻 Author
-
-Riya Ramteke
+## 👩‍💻 **Author**  
+**Riya Ramteke**  
